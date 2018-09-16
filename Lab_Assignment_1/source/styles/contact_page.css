@@ -1,0 +1,37 @@
+p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+}
+
+.contributor_1 {
+    float: left;
+    width: 50%;
+}
+
+.contributor_2 {
+    float: right;
+    width: 50%;
+}
+
+.code_details {
+    padding-top: 250px;
+    float: bottom;
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+

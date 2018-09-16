@@ -3,5 +3,4 @@ function onSignIn(googleUser) {
     $(".g-signin2").css("display", "none");
     $(".data").css("display", "block");
     $("#email").text(profile.getEmail());
-
 }
