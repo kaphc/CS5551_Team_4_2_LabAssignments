@@ -17,6 +17,7 @@ angular.module("login", []).controller("login-ctrl", function ($scope, $http) {
             }
             else{
                 location.href = "home_page.html";
+                localStorage.setItem("logged_user",username);
             }
         }
     };

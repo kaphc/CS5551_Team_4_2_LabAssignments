@@ -11,27 +11,11 @@
     <meta name="google-signin-client_id"
           content="211747334293-0ee9mtjpfslnl7fcvlh6a43fl7i5a5j8.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="login_page.js"></script>
-    <link rel="stylesheet" href="login_page.css">
+    <script src="profile_page.js"></script>
 </head>
 <body>
-
-<br class="span3">
-<h2>Log In</h2>
-
-<label>User Name</label>
-<input type="text" name="username" id="username" class="span3"></br>
-<label>Password</label>
-<input type="password" name="password" id="password" class="span3"></br>
-
-<div ng-app="login" ng-controller="login-ctrl" id="login-button">
-    <button type="button" class="btn btn-primary" ng-click="loginUser()">Login</button>
-    <button type="button" ng-click="signupUser()">Sign Up</button>
+<div ng-app="profile" ng-controller="profile-ctrl">
+    <p>Welcome {{ userdetails }}</p>
 </div>
-</form>
-</div>
-<div class="g-signin2" ></div>
-
-
 </body>
 </html>
