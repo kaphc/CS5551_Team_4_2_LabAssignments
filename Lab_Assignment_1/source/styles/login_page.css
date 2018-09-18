@@ -1,0 +1,122 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: auto;
+}
+
+form {
+    padding-top: 50px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+p {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: large;
+}
+
+h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.id {
+    width: 50%;
+}
+
+#optional-login {
+    padding-top: 100px;
+}
+
+#left_part {
+    width: 30%;
+    float: left;
+}
+
+#center_part {
+    width: 40%;
+    float: left;
+}
+
+#right_part {
+    width: 30%;
+    float: right;
+}
+
+#login_div {
+    float: left;
+    width: 50%;
+}
+
+#signup_div {
+    float: right;
+    width: 50%;
+}
+
+#buttons {
+    padding-top: 20px;
+}
+
+#login {
+    background-color: #4CAF50;
+}
+
+#signup {
+    background-color: tomato;
+}
+
+#google-button, #facebook-button {
+    background: white;
+    border: white;
+}
+
+#google-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#facebook-logo {
+    height: 50px;
+    width: 140px;
+    padding-left: 90px;
+}
+
+#other-login {
+    text-align: center;
+}
+
+
+#facebook-button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+#login, #signup {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
