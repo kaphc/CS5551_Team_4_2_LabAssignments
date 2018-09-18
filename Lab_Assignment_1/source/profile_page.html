@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>LogIn</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -11,11 +11,38 @@
     <meta name="google-signin-client_id"
           content="211747334293-0ee9mtjpfslnl7fcvlh6a43fl7i5a5j8.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="profile_page.js"></script>
+    <script src="javascripts/profile_page.js"></script>
 </head>
-<body>
-<div ng-app="profile" ng-controller="profile-ctrl">
-    <p>Welcome {{ userdetails }}</p>
+<body ng-app="profile" ng-controller="profile-ctrl">
+<div class="header">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Lab Assignment 1</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="about_page.html">About Page</a></li>
+                <li><a href="contact_page.html">Contact Page</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="profile_page.html"  class="active"><span class="glyphicon glyphicon-user"></span>My Profile</a></li>
+                <li><a href="login_page.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div>
+    <div class="image">
+        <table id="image" align="right">
+        </table>
+    </div>
+    <div class="description">
+        <ul class="list-group list-group-flush">
+            <table class="table" id="information-table">
+            </table>
+        </ul>
+    </div>
 </div>
 </body>
 </html>

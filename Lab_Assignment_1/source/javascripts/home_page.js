@@ -45,7 +45,7 @@ angular.module("search-engine", []).controller("search-engine-ctrl", function ($
             } catch(e) {
                 type = "NOT AVAILABLE";
             }
-            second_row.insertCell(0).innerHTML = "TYPE";
+            second_row.insertCell(0).innerHTML = "Type";
             second_row.insertCell(1).innerHTML = type;
 
             try {
