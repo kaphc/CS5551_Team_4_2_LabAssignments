@@ -76,7 +76,10 @@ login.controller('google-login-ctrl', ['$scope', function ($scope) {
                             "\",\"email\":\"" + response.email +
                             "\",\"image\":\"" + response.picture.data.url +
                             "\"}");
+<<<<<<< HEAD
                         location.href = "home_page.html";
+=======
+>>>>>>> 2b0750fac8fa6988ebed8499d2f902cb2936e8f0
                     });
                 })
             }
