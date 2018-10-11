@@ -1,0 +1,7 @@
+{
+  "name": "giqr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
