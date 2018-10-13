@@ -68,8 +68,10 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/background_border"
                 android:hint="Password"
+                android:inputType="textPassword"
                 android:paddingBottom="10dp"
                 android:paddingLeft="10dp"
+
                 android:paddingRight="10dp"
                 android:paddingTop="10dp" />
 
@@ -84,6 +86,7 @@
                 android:background="#39135B"
                 android:hint="Register"
                 android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
                 android:textSize="15dp" />
 
             <LinearLayout
