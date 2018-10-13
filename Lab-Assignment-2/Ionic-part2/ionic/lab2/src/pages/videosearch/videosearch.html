@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar color="danger">
+    
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title >
+        <ion-icon name="logo-youtube"></ion-icon>
+      Video search</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="video-content">
+  <ion-item>
+    <ion-input type="text" placeholder="Search Youtube..." [(ngModel)]="searchTerm"></ion-input>
+  </ion-item>
+  <button ion-button full icon-left color="danger" (click)="search()">
+      <div padding><ion-icon name="search" ></ion-icon></div>
+    Search
+
+  </button>
+
+  <ion-card *ngFor="let result of results">
+    <ion-card-content>
+      <img src="{{result.snippet.thumbnails.medium.url}}" height="{{result.snippet.thumbnails.medium.height}}" width="{{result.snippet.thumbnails.medium.width}}" (click)=play(result.id.videoId)/>
+      <div class="padding-top-5px">
+        <h2><strong>Description :</strong> {{result.snippet.title}}</h2>
+        <h3><strong>Channel Name :</strong> {{result.snippet.channelTitle}}</h3>
+        <h4><strong>Published On :</strong>{{result.snippet.publishedAt}}</h4>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
