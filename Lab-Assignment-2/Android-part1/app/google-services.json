@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629300224197",
+    "firebase_url": "https://kavinbags-cfc96.firebaseio.com",
+    "project_id": "kavinbags-cfc96",
+    "storage_bucket": "kavinbags-cfc96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629300224197:android:0635f06fc0ced698",
+        "android_client_info": {
+          "package_name": "com.example.kavinkumar.kavinbags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629300224197-9udqh1lqof7p6eo4lqibjf40bg4j2qiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kavinkumar.kavinbags",
+            "certificate_hash": "4e5abaac2c3bbd4ef477013ab87840474a653364"
+          }
+        },
+        {
+          "client_id": "629300224197-jg4kbcivslf56ivgf4hbju8p4ahavom4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5ea4kzMSKEkU2dPh4mkc_6_ivH9V8wz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629300224197-jg4kbcivslf56ivgf4hbju8p4ahavom4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
