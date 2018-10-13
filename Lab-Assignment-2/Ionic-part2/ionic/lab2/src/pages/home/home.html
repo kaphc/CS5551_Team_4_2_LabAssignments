@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+        <ion-icon name="person"></ion-icon>
+        Face Detection</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- <button ion-button round (click)="takePhoto()">Take a SNAP..!!</button> -->
+  <div class="row">
+      <div class="col text-center">
+    <button class="button button-dark" ion-button round (click)="takePhoto()">
+        <div padding><ion-icon name="camera" ></ion-icon></div>
+     Take Photo
+    </button>
+    
+      </div>
+    </div>  
+ 
+  <img  [src]="base64Image!== '' ? base64Image : defaultImg" class="thumbnails" />
+  <div class="text-center">
+    <label>{{gender}}</label><br />
+    <label>{{age}}</label>
+  </div>
+     
+</ion-content>
+
