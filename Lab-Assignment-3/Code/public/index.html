@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="scripts/index.js"></script>
+<link rel="stylesheet" href="styles/index.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body ng-app="login_and_register" ng-controller="login_controller">
+    <!--<input type="text" placeholder="user_name">-->
+    <!--<input type="password" placeholder="password">-->
+    <!--<input type="text" ng-model="formData.email_id" placeholder="email id">-->
+    <!--<button id="login_button" ng-click="login()">login</button>-->
+    <!--<button id="register_button" ng-click="register()">register</button>-->
+    <div id="left_part">
+        <p></p>
+    </div>
+    <div id="center_part">
+        <h2><b>Welcome to Group Chat</b></h2>
+        <form>
+            <p>Username</p>
+            <input type="text"  ng-model="formData.user_name" name="username" id="username" class="span3"></br>
+
+            <p>Password</p>
+            <input type="password" ng-model="formData.password" name="password" id="password" class="span3"></br>
+
+            <p>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </p>
+
+            <div>
+                <div id="login_div">
+                    <button type="button" ng-click="login()" id="login">Login</button>
+                </div>
+            </div>
+        </form>
+        <div id="optional-login">
+            <h4><span>or</span></h4>
+        </div>
+        <p style="text-align: center">Need an Account? <a href="sign_up.html">click here</a></p>
+    </div>
+    <div id="right_part">
+        <p></p>
+    </div>
+</body>
+</html>
